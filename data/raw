@@ -1,0 +1,27 @@
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+## Dataset
+- **Name:** Telco Customer Churn  
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)  
+- **Rows:** 7,043 customers  
+- **Columns:** 21 features  
+- **Target:** `Churn` — whether a customer left the company (Yes/No)
+
+### Key Features
+| Feature | Description |
+|---|---|
+| `customerID` | Unique customer identifier (dropped during cleaning) |
+| `gender` | Male or Female |
+| `SeniorCitizen` | Whether customer is a senior citizen (0/1) |
+| `tenure` | Number of months with the company |
+| `PhoneService` | Whether customer has phone service |
+| `InternetService` | DSL, Fiber optic, or None |
+| `Contract` | Month-to-month, One year, Two year |
+| `MonthlyCharges` | Monthly billing amount |
+| `TotalCharges` | Total amount charged |
+| `Churn` | **Target** — Yes if customer left, No if stayed |
+
+### Business Problem
+> A telecom company wants to identify **which customers are likely 
+> to cancel their subscription** so the retention team can intervene 
+> early with offers or support.
