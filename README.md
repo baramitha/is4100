@@ -39,5 +39,3 @@ python src/model.py
 ```
 
 ---
-
-*IS4100 Group 4 · 2025*
