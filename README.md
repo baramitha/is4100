@@ -17,21 +17,27 @@ on a Kaggle dataset to support data-driven decision-making.
 
 ---
 
-## Repo Structure
-IS4100-ML-Pipeline/
-│
-├── README.md
-├── .gitignore
-│
-├── data/
-│   ├── raw/          # Original Kaggle dataset (not uploaded)
-│   └── processed/    # Cleaned dataset output
-│
-├── src/
-│   ├── data_engineering.py    # SCRUM-14, 15, 16
-│   ├── feature_engineering.py # SCRUM-17
-│   ├── model.py               # SCRUM-7
-│   └── train_test_split.py    # SCRUM-18
-│
-└── notebooks/
-└── exploration.ipynb      # SCRUM-14: Data exploration
+## Tech Stack
+- **Python** — Pandas, Scikit-Learn
+- **Jira** — Sprint & backlog tracking
+- **Slack** — Team communication
+- **AWS** — Compute resources
+
+---
+
+## Commit Convention
+Every commit must reference a Jira ticket:
+git commit -m "SCRUM-16: Clean dataset and remove nulls"
+
+---
+
+## How to Run
+```bash
+pip install pandas scikit-learn
+python src/data_engineering.py
+python src/model.py
+```
+
+---
+
+*IS4100 Group 4 · 2025*
