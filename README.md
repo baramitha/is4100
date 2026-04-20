@@ -20,7 +20,6 @@ on a Kaggle dataset to support data-driven decision-making.
 ## Tech Stack
 - **Python** — Pandas, Scikit-Learn
 - **Jira** — Sprint & backlog tracking
-- **Slack** — Team communication
 - **AWS** — Compute resources
 
 ---
