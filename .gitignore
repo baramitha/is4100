@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (Kaggle dataset - do not upload)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+*.zip
+
+# Model files (too large for GitHub)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# AWS credentials (never upload these!)
+.aws/
+credentials
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jira/Tempo exports
+reports/*.png
