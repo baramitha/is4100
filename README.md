@@ -1,4 +1,4 @@
-# IS4100 – ML Pipeline (Group 4)
+# IS4100 – Scrum Machine Learning Pipeline
 
 ## Overview
 A machine learning pipeline built using Python, managed with 
